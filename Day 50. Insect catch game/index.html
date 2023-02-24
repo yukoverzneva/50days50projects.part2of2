@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Insect Catch Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Insect</h1>
+      <button class="btn start-btn">Play Game</button>
+    </div>
+    <div class="screen">
+      <h1>What is your "favourite" insect?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Moth</p>
+            <img
+              src="https://pngimg.com/uploads/moth/small/moth_PNG8.png"
+              alt="moth"
+            /></button
+          ><button class="choose-insect-btn">
+            <p>Spider</p>
+            <img
+              src="https://pngimg.com/uploads/spider/small/spider_PNG11.png"
+              alt="spider"
+            /></button
+          ><button class="choose-insect-btn">
+            <p>Scolopendra</p>
+            <img
+              src="https://pngimg.com/uploads/centipede/centipede_PNG2.png"
+              alt="scolopendra"
+            /></button
+          ><button class="choose-insect-btn">
+            <p>Roach</p>
+            <img
+              src="https://pngimg.com/uploads/roach/roach_PNG12149.png"
+              alt="roach"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="msg" class="msg">
+        Are you annoyed yet? <br />You are playing an impossible game!
+      </h5>
+      <!-- <div class="insect">
+        <img src="https://pngimg.com/uploads/roach/roach_PNG12149.png" alt="" />
+      </div> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
